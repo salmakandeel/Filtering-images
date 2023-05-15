@@ -1,0 +1,33 @@
+.header{
+    width: 600px;
+    height: 200px;
+    margin: auto;
+    margin-top: 30px;
+    text-align: center;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+img{
+    width: 340px;
+    height: 260px;
+    margin-bottom: 20px;
+}
+button{
+    width: 120px;
+    height: 35px;
+    padding: 5px 10px;
+    background-color: rgb(229, 155, 233);
+    outline: none;
+    border: none;
+    color: white;
+    border-radius:9px;
+    font-size: 15px;
+}
+.active{
+    background-color: rgb(255, 255, 255);
+    color:  rgb(229, 155, 233);
+    border: 2px solid rgb(229, 155, 233);
+}

@@ -14,6 +14,7 @@ const button=document.querySelector(".active")
        
     })
 }
+getAllImages()
 const displayAll=document.getElementById('all')
 displayAll.addEventListener('click',function(){getspesficImages('all')})
 
